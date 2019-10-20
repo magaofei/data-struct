@@ -1,6 +1,11 @@
 # Prerequisites
 *.d
 
+# 排除所有文件，除了 c 和 h
+**
+!*.c
+!*.h
+
 # Object files
 *.o
 *.ko
